@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="description" content="ONO — Ropa oscura escultural. Pronto disponible.">
 <meta property="og:title" content="ONO — Próximamente">
 <meta property="og:description" content="Ropa oscura escultural. Drops limitados. Sin reposición.">
@@ -296,14 +296,12 @@ body::before{
 .side-right{right:1.5rem;transform:translateY(-50%) rotate(180deg);}
 
 /* Mobile */
-@media(max-width:auto){
+@media(max-width:768px){
   .page{padding:1.8rem 1.5rem;}
   .side-text{display:none;}
   body{overflow:auto;}
   .headline{font-size:clamp(3rem,14vw,5rem);}
-  .cur{
-    display: none;
-  }
+  .cur{display: none;}
 }
 </style>
 </head>
